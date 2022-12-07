@@ -15,6 +15,7 @@ import numpy as np
 
 vid = cv.VideoCapture(0)
 
+# set resolution
 vid.set(3,1280)
 vid.set(4,720)
 
